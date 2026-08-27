@@ -1,3 +1,3 @@
 # projeto-integrador-frontend-gabrielbarbosasoares
-Professor: Jeofton Costa Melo;
+Professor: Jeofton Costa Meloo;
 Projeto: Catalogo de motos;
