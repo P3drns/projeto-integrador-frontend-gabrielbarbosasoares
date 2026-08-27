@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+
+    <link rel="stylesheet" href="../css/style_main.css">
+</head>
+<body>
+    <header>
+    <div class="principal">
+    <h1>Catalogo de Motos</h1>
+    <p>Esse projeto tem como objetivo a criação de um catalogo de Motos.</p>
+    <h2>Esse catalogo ira informar individualmente:</h2>
+    <ul>
+        <li class="inicio">Tipo da moto</li>
+        <li class="inicio">Preço</li>
+        <li class="inicio">Potencia</li>
+        <li class="inicio">Detalhes </li>
+    </ul>
+    </div>
+    <div class="menu">
+    <nav>
+        <h2 id="menu">Menu de navegação</h2>
+        <ul>
+            <li><a href="bmw.html" target="_blank"><img src="../assets/images/logo_bmw.jpg" class="logo" alt="logo_bmw"></a></li>
+            <li><a href="yamaha.html" target="_blank"><img src="../assets/images/logo_yamaha.jpg" class="logo" alt="logo_yamaha"></a></li>
+            <li><a href="kawazaki.html" target="_blank"><img src="../assets/images/logo_kawazaki.jpg" class="logo" alt="logo_kawazaki"></a></li>
+            <li><a href="honda.html" target="_blank"><img src="../assets/images/logo_honda.jpg" class="logo" alt="logo_honda"></a></li>
+            <li><a href="shineray.html" target="_blank"><img src="../assets/images/logo_shineray.jpg" class="logo" alt="logo_shineray"></a></li>
+        </ul>
+    </nav>
+    </div>
+    </header>
+
+    <video id="biker_video" controls autoplay muted loop>
+    <source src="../assets/videos/biker_video.mp4" type="video/mp4">
+    </video>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Tipos de motos</th>
+                <th>Potencias</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Scooter</td>
+                <td>150cc</td>
+            </tr>
+            <tr>
+                <td>Esportiva</td>
+                <td>300cc</td>
+            </tr>
+            <tr>
+                <td>Trilha</td>
+                <td>600cc</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <form action="../assets/forms/_blank" autocomplete="off">
+        <h2 style="font-size: xxx-large;">Feedback</h2>
+            <p>Seu nome: </p>
+            <input type="text" placeholder="Nome">
+            <p>Sua idade: </p>
+            <input type="text" placeholder="Idade">
+            <p>Seu gênero: </p>
+            <input type="radio" name="genero" id="masculino">Masculino
+            <input type="radio" name="genero" id="feminino">Feminino
+            <input type="radio" name="genero" id="naoinformar">Nao informar
+            <p>Voce gosta de motos?</p>
+            <input type="radio" name="gosta" id="gosta">Sim
+            <input type="radio" name="gosta" id="gosta">Não
+            <input type="radio" name="gosta" id="gosta">Mais ou menos
+            <p>Explique: </p>
+            <input type="text" placeholder="Eu gosto/nao gosto porque..."><br><br>
+            <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>

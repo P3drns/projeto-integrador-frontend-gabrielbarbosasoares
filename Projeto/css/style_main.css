@@ -32,3 +32,23 @@ img.logo{
 .principal{
     background-color: rgb(247, 247, 247);
 }
+
+#biker_video{
+    width: 20%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+form{
+    text-align: center;
+}
+table{
+    font-size: xx-large;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+}
+table td, table th{
+    border: 1px solid;
+    padding: 5px;
+}
